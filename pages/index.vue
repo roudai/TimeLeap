@@ -1,21 +1,22 @@
 <template>
   <section class="section">
+    <div class="columns">
+      <img src="~assets/artist-photo.jpg" alt="タイムリープ" />
+    </div>
+
     <div class="columns is-mobile">
-      <card title="Free" icon="github">
-        Open source on <a href="https://github.com/buefy/buefy"> GitHub </a>
+      <card title="Music" icon="github">
+        <a href="https://linkco.re/uRn3hSfu?lang=ja">Music</a>
       </card>
 
-      <card title="Responsive" icon="cellphone-link">
-        <b class="has-text-grey"> Every </b> component is responsive
+      <card title="YouTube" icon="cellphone-link">
+        <a href="https://www.youtube.com/channel/UC0uT6Qi6sYX0RLOWwKcK0LA"
+          >YouTube</a
+        >
       </card>
 
-      <card title="Modern" icon="alert-decagram">
-        Built with <a href="https://vuejs.org/"> Vue.js </a> and
-        <a href="http://bulma.io/"> Bulma </a>
-      </card>
-
-      <card title="Lightweight" icon="arrange-bring-to-front">
-        No other internal dependency
+      <card title="Base" icon="alert-decagram">
+        <a href="https://jiyuuujikan.base.shop/">Base</a>
       </card>
     </div>
   </section>
