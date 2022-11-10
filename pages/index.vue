@@ -1,8 +1,10 @@
 <template>
   <div>
-    <img src="~assets/top.webp" alt="タイムリープ" />
+    <figure class="image is-3by2">
+      <img src="~assets/top.webp" />
+    </figure>
 
-    <div>
+    <div class="main-contents">
       <div class="columns is-variable is-1-mobile is-mobile">
         <div class="column is-0-mobile"></div>
         <card title="Music" icon="music-box-multiple" url="https://linkco.re/uRn3hSfu?lang=ja"></card>

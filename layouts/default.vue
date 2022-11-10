@@ -3,16 +3,14 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand container column is-6">
         <a class="navbar-item" href="/">
-          <img src="~assets/logo.webp" alt="Buefy" height="50" />
+          <img src="~assets/logo.webp" alt="タイムリープ" height="50" />
         </a>
       </div>
     </nav>
 
-    <section class="main-content">
-      <div class="container">
-        <Nuxt />
-      </div>
-    </section>
+    <div class="container">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
