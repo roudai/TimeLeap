@@ -39,11 +39,13 @@
       </div>
     </nav>
 
-    <section class="main-content columns">
-      <div class="container column is-10">
-        <Nuxt />
-      </div>
-    </section>
+    <div class="main-content">
+      <section class="main-content columns">
+        <div class="container column is-8">
+          <Nuxt />
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
