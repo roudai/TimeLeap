@@ -27,6 +27,26 @@
         <card title="Base" icon="cart" url="https://jiyuuujikan.base.shop"> </card>
         <div class="column is-0-mobile"></div>
       </div>
+
+      <div class="columns is-hidden-touch is-centered">
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
+          width="1000"
+          height="800"
+          frameborder="0"
+          scrolling="no"
+        ></iframe>
+      </div>
+
+      <div class="columns is-hidden-desktop is-centered">
+        <div class="is-8 is-offset-2">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&showTabs=0&mode=AGENDA&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
+            width="375"
+            height="400"
+          ></iframe>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -46,21 +66,5 @@ export default {
 .main-contents {
   position: relative;
   top: -50px;
-}
-div.anzu {
-  color: red;
-  border-color: red;
-}
-button.yuri {
-  color: hotpink;
-  border-color: hotpink;
-}
-button.runa {
-  color: blueviolet;
-  border-color: blueviolet;
-}
-button.owari {
-  color: blue;
-  border-color: blue;
 }
 </style>
