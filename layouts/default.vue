@@ -8,13 +8,11 @@
       </div>
     </nav>
 
-    <div class="main-content">
-      <section class="main-content columns">
-        <div class="container column is-6">
-          <Nuxt />
-        </div>
-      </section>
-    </div>
+    <section class="main-content">
+      <div class="container">
+        <Nuxt />
+      </div>
+    </section>
   </div>
 </template>
 

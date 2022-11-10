@@ -1,10 +1,8 @@
 <template>
   <div>
-    <div class="columns">
-      <img src="~assets/top.webp" alt="タイムリープ" />
-    </div>
+    <img src="~assets/top.webp" alt="タイムリープ" />
 
-    <div class="main-contents">
+    <div>
       <div class="columns is-variable is-1-mobile is-mobile">
         <div class="column is-0-mobile"></div>
         <card title="Music" icon="music-box-multiple" url="https://linkco.re/uRn3hSfu?lang=ja"></card>
@@ -39,13 +37,11 @@
       </div>
 
       <div class="columns is-hidden-desktop is-centered">
-        <div class="is-8 is-offset-2">
-          <iframe
-            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&showTabs=0&mode=AGENDA&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
-            width="375"
-            height="400"
-          ></iframe>
-        </div>
+        <iframe
+          src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&showTabs=0&mode=AGENDA&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
+          width="375"
+          height="400"
+        ></iframe>
       </div>
     </div>
   </div>
@@ -66,5 +62,9 @@ export default {
 .main-contents {
   position: relative;
   top: -50px;
+}
+iframe {
+  position: relative;
+  left: 0.75rem;
 }
 </style>
