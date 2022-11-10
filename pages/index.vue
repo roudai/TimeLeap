@@ -41,7 +41,7 @@
       <div class="columns is-hidden-desktop is-centered">
         <iframe
           src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&showTabs=0&mode=AGENDA&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
-          width="375"
+          width="350"
           height="400"
         ></iframe>
       </div>
@@ -65,8 +65,8 @@ export default {
   position: relative;
   top: -50px;
 }
-iframe {
-  position: relative;
-  left: 0.75rem;
+.columns {
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 </style>
