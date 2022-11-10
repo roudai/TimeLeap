@@ -4,7 +4,7 @@
       <img src="~assets/artist-photo.jpg" alt="タイムリープ" />
     </div>
 
-    <div class="columns is-mobile">
+    <div class="columns is-variable is-1-mobile is-mobile">
       <div class="column is-0-mobile"></div>
       <card title="Music" icon="github">
         <a href="https://linkco.re/uRn3hSfu?lang=ja">Music</a>
