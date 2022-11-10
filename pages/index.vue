@@ -6,17 +6,17 @@
 
     <div class="columns is-variable is-1-mobile is-mobile">
       <div class="column is-0-mobile"></div>
-      <card title="Music" icon="github">
+      <card title="Music" icon="music-box-multiple">
         <a href="https://linkco.re/uRn3hSfu?lang=ja">Music</a>
       </card>
 
-      <card title="YouTube" icon="cellphone-link">
+      <card title="YouTube" icon="youtube">
         <a href="https://www.youtube.com/channel/UC0uT6Qi6sYX0RLOWwKcK0LA"
           >YouTube</a
         >
       </card>
 
-      <card title="Base" icon="alert-decagram">
+      <card title="Base" icon="cart">
         <a href="https://jiyuuujikan.base.shop/">Base</a>
       </card>
       <div class="column is-0-mobile"></div>
@@ -39,3 +39,10 @@ export default {
   },
 }
 </script>
+
+<style>
+.topcontents {
+  position: relative;
+  top: -50px;
+}
+</style>

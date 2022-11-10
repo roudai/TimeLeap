@@ -1,5 +1,5 @@
 <template>
-  <div class="column">
+  <div class="column topcontents">
     <div class="card">
       <div class="card-content">
         <div class="content has-text-centered">
