@@ -1,32 +1,27 @@
 <template>
-  <section class="section">
+  <div>
     <div class="columns">
-      <img src="~assets/artist-photo.jpg" alt="タイムリープ" />
+      <img src="~assets/top.webp" alt="タイムリープ" />
     </div>
 
-    <div class="columns is-variable is-1-mobile is-mobile">
-      <div class="column is-0-mobile"></div>
-      <card title="Music" icon="music-box-multiple">
-        <a href="https://linkco.re/uRn3hSfu?lang=ja">Music</a>
-      </card>
+    <div class="main-contents">
+      <div class="columns is-variable is-1-mobile is-mobile">
+        <div class="column is-0-mobile"></div>
+        <card title="Music" icon="music-box-multiple" url="https://linkco.re/uRn3hSfu?lang=ja"> </card>
+        <card title="Twitter" icon="twitter" url="https://twitter.com/timeleaaap"> </card>
+        <card title="YouTube" icon="youtube" url="https://www.youtube.com/channel/UC0uT6Qi6sYX0RLOWwKcK0LA"></card>
+        <div class="column is-0-mobile"></div>
+      </div>
 
-      <card title="YouTube" icon="youtube">
-        <a href="https://www.youtube.com/channel/UC0uT6Qi6sYX0RLOWwKcK0LA"
-          >YouTube</a
-        >
-      </card>
-
-      <card title="Base" icon="cart">
-        <a href="https://jiyuuujikan.base.shop/">Base</a>
-      </card>
-      <div class="column is-0-mobile"></div>
+      <div class="columns is-variable is-1-mobile is-mobile">
+        <div class="column is-0-mobile"></div>
+        <card title="lit.link" icon="link-plus" url="https://lit.link/httpsjiyuuujikancom"> </card>
+        <card title="SHOWROOM" icon="filmstrip" url="https://www.showroom-live.com/r/827a36608516"></card>
+        <card title="Base" icon="cart" url="https://jiyuuujikan.base.shop"> </card>
+        <div class="column is-0-mobile"></div>
+      </div>
     </div>
-
-    <div class="columns">
-      <div class="column has-text-centered">Contact</div>
-      <div class="column has-text-centered">SHOWROOM</div>
-    </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -41,7 +36,7 @@ export default {
 </script>
 
 <style>
-.topcontents {
+.main-contents {
   position: relative;
   top: -50px;
 }
