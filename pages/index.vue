@@ -23,7 +23,7 @@
       <div class="columns is-variable is-1-mobile is-mobile">
         <div class="column"></div>
         <card title="lit.link" icon="link-plus" url="https://lit.link/httpsjiyuuujikancom"> </card>
-        <card title="ShowRoom" icon="filmstrip" url="https://www.showroom-live.com/r/827a36608516"></card>
+        <card title="SHOWROOM" icon="filmstrip" url="https://www.showroom-live.com/r/827a36608516"></card>
         <card title="Base" icon="cart" url="https://jiyuuujikan.base.shop"> </card>
         <div class="column"></div>
       </div>
