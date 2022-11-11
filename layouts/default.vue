@@ -8,7 +8,7 @@
       </div>
     </nav>
 
-    <div class="container m-3">
+    <div class="container">
       <Nuxt />
     </div>
   </div>
