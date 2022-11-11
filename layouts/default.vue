@@ -1,7 +1,7 @@
 <template>
   <div class="has-background-white-bis">
     <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand container column is-6">
+      <div class="navbar-brand container">
         <a class="navbar-item" href="/">
           <img src="~assets/logo.webp" alt="タイムリープ" height="50" />
         </a>
@@ -37,9 +37,6 @@ export default {
 </script>
 
 <style>
-.navbar-item {
-  padding: 0;
-}
 .navbar-item img {
   max-height: 2.5em;
 }
