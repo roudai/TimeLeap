@@ -5300,6 +5300,11 @@ is-docker@^2.0.0, is-docker@^2.1.1, is-docker@^2.2.1:
   resolved "https://registry.yarnpkg.com/is-docker/-/is-docker-2.2.1.tgz#33eeabe23cfe86f14bde4408a02c0cfb853acdaa"
   integrity sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==
 
+is-email@latest:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-email/-/is-email-1.0.2.tgz#51a618e2ddc895988ceb550df9f587b3607560e5"
+  integrity sha512-UojUgD2EhDTBQ2SGKwrK9edce5phRzgLsP+V5+Uu2Swi+uvjVXgH3zduM3HhT9iaC/9Kq19/TYUbP0jPoi6ioA==
+
 is-extendable@^0.1.0, is-extendable@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-0.1.1.tgz#62b110e289a471418e3ec36a617d472e301dfc89"
@@ -6296,6 +6301,13 @@ nuxt-buefy@^0.4.24:
   integrity sha512-H+lwMEHj3Qbhz16PycAVAYXCbm0tRnP139g6A9uzcEYA1/KVui0CZrzJp3nX+6woJ1AAe8WoLjsb8FXJ2wEsmA==
   dependencies:
     buefy "^0.9.22"
+
+nuxt-protected-mailto@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/nuxt-protected-mailto/-/nuxt-protected-mailto-0.0.12.tgz#2a0e9c17f2ca6038a21e7ee51e53ccd4ad138717"
+  integrity sha512-8JMGqkoH3P2DVWlqDIFbmZHa+7pvD6Z2DriqmpEbzdY7L+8aUrfDitVfMWgeGktE7qDqh6TBl9Z0UJF7X0M4CA==
+  dependencies:
+    is-email latest
 
 nuxt@^2.15.8:
   version "2.15.8"

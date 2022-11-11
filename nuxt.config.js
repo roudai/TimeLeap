@@ -42,8 +42,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
+    'nuxt-protected-mailto',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    html: {
+      minify: {
+        decodeEntities: false,
+      },
+    },
+  },
 }

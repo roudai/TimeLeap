@@ -41,7 +41,7 @@
       <div class="has-text-centered m-3">
         <button class="button is-primary is-outlined is-medium">
           <b-icon icon="email" size="is-medium" type="is-primary" />
-          <a href="mailto:info@jiyuuujikan.com">Contact</a>
+          <Mailto mail="info@jiyuuujikan.com">Contact</Mailto>
         </button>
       </div>
     </div>
