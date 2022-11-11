@@ -7,7 +7,7 @@
         </header>
         <div class="card-image">
           <figure class="image is-1by1">
-            <img :src="imagePath()" alt="あんず" />
+            <img :src="imagePath()" :alt="name" />
           </figure>
         </div>
       </nuxt-link>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <figure class="image is-3by2">
-      <img src="~assets/top.webp" />
+      <img src="~assets/top.webp" alt="タイムリープアーティスト写真" />
     </figure>
 
     <div class="main-contents m-3">
