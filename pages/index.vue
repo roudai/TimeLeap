@@ -31,6 +31,7 @@
       <div class="google-cal has-text-centered">
         <iframe
           src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showNav=1&showPrint=0&showCalendars=0&showTz=0&showDate=1&src=aml5dXV1amlrYW4yMDIyQGdtYWlsLmNvbQ&color=%23A79B8E"
+          title="タイムリープスケジュール"
           width="1000"
           height="600"
           frameborder="0"
