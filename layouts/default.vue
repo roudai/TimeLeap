@@ -53,4 +53,12 @@ export default {
   left: 0;
   right: 0;
 }
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
 </style>
