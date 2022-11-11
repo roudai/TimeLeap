@@ -37,20 +37,18 @@
           scrolling="no"
         ></iframe>
       </div>
+
+      <div class="has-text-centered m-3">
+        <button class="button is-primary is-outlined is-medium">
+          <b-icon icon="email" size="is-medium" type="is-primary" />
+          <a href="mailto:info@jiyuuujikan.com">Contact</a>
+        </button>
+      </div>
     </div>
   </div>
 </template>
 
-<script>
-import Card from '~/components/Card'
-
-export default {
-  name: 'IndexPage',
-  components: {
-    Card,
-  },
-}
-</script>
+<script></script>
 
 <style>
 .main-contents {
