@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="has-background-white-bis">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand container column is-6">
         <a class="navbar-item" href="/">
