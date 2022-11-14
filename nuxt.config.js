@@ -10,7 +10,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'time-leap',
+    title: 'タイムリープ公式',
     htmlAttrs: {
       lang: 'ja',
     },
