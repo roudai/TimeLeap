@@ -1,6 +1,6 @@
 <template>
   <div class="artist">
-    <nuxt-link to="/">
+    <nuxt-link to="/#main_area">
       <figure class="image is-2by3">
         <img :src="imagePath()" :alt="name" />
       </figure>

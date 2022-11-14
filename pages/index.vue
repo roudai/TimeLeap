@@ -4,7 +4,7 @@
       <img src="~assets/top.webp" alt="タイムリープアーティスト写真" />
     </figure>
 
-    <div class="main-contents m-3">
+    <div id="main_area" class="main-contents m-3">
       <div class="columns is-variable is-1-mobile is-mobile">
         <div class="column"></div>
         <card title="Music" icon="music-box-multiple" url="https://linkco.re/uRn3hSfu?lang=ja"></card>
