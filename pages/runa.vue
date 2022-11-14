@@ -1,9 +1,3 @@
 <template>
-  <div>
-    <div class="artist">
-      <nuxt-link to="/">
-        <img src="~assets/runa.webp" alt="るな" />
-      </nuxt-link>
-    </div>
-  </div>
+  <member name="るな" image="runa"></member>
 </template>
