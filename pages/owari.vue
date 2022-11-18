@@ -1,3 +1,5 @@
 <template>
-  <member name="おわり" image="owari"></member>
+  <div class="container">
+    <member-page name="おわり" image="owari"></member-page>
+  </div>
 </template>

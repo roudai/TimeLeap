@@ -1,3 +1,5 @@
 <template>
-  <member name="るな" image="runa"></member>
+  <div class="container">
+    <member-page name="るな" image="runa"></member-page>
+  </div>
 </template>
