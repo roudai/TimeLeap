@@ -1,14 +1,7 @@
 <template>
-  <div class="has-background-white-bis">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand container">
-        <a class="navbar-item" href="/">
-          <img src="~assets/logo.webp" alt="タイムリープ" height="50" />
-        </a>
-      </div>
-    </nav>
-
-    <div class="container">
+  <div class="has-background-white-bis main-content columns ml-0 mr-0">
+    <div class="container column is-8 pl-0 pr-0">
+      <nav-bar></nav-bar>
       <Nuxt />
     </div>
   </div>
