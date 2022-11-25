@@ -1,5 +1,5 @@
 <template>
   <div class="container">
-    <member-page name="あんず" image="anzu"></member-page>
+    <member-page name="あんず" color="赤" image="anzu"></member-page>
   </div>
 </template>

@@ -4,6 +4,10 @@
       <figure class="image is-2by3">
         <img :src="imagePath()" :alt="name" />
       </figure>
+      <div class="box has-text-centered">
+        <div class="is-size-4">{{ name }}</div>
+        <div>担当カラー：{{ color }}</div>
+      </div>
     </nuxt-link>
   </div>
 </template>
@@ -12,6 +16,10 @@
 export default {
   props: {
     name: {
+      type: String,
+      required: true,
+    },
+    color: {
       type: String,
       required: true,
     },
