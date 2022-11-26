@@ -7,12 +7,13 @@
     </nuxt-link>
     <div class="box has-text-centered">
       <div class="is-size-4">{{ name }}</div>
-      <div>カラー：{{ color }}</div>
+      <div>{{ color }}</div>
       <div>
-        Twitter : <a :href="twitterPath()">@{{ twitter }}</a>
+        <img class="icon twitter" src="@/assets/twitter.png" alt="twitter" /><a :href="twitterPath()">@{{ twitter }}</a>
       </div>
       <div>
-        Instagram : <a :href="instagramPath()">{{ instagram }}</a>
+        <img class="icon instagram" src="@/assets/instagram.png" alt="twitter" />
+        <a :href="instagramPath()">{{ instagram }}</a>
       </div>
       <div></div>
     </div>
@@ -56,3 +57,16 @@ export default {
   },
 }
 </script>
+
+<style>
+.icon {
+  height: auto;
+  width: 1rem;
+}
+.twitter {
+  margin-bottom: -0.1rem;
+}
+.instagram {
+  margin-bottom: -0.2rem;
+}
+</style>
