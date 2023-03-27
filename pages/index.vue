@@ -14,10 +14,10 @@
       </div>
 
       <div class="columns is-variable is-1-mobile is-mobile">
+        <div class="column"></div>
         <card-name name="あんず" image="anzu_icon" to="anzu"></card-name>
-        <card-name name="るな" image="runa_icon" to="runa"></card-name>
-        <card-name name="ゆり" image="yuri_icon" to="yuri"></card-name>
         <card-name name="おわり" image="owari_icon" to="owari"></card-name>
+        <div class="column"></div>
       </div>
 
       <div class="columns is-variable is-1-mobile is-mobile">
@@ -28,7 +28,7 @@
         <div class="column"></div>
       </div>
 
-      <figure class="image m-3">
+      <!-- <figure class="image m-3">
         <img src="~assets/audition.webp" alt="オーディション" />
       </figure>
 
@@ -37,7 +37,7 @@
         <figure class="image is-96x96 is-inline-block">
           <img src="~assets/line.webp" alt="LINE" />
         </figure>
-      </div>
+      </div> -->
 
       <div class="google-cal has-text-centered">
         <iframe
